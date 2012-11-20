@@ -3,6 +3,7 @@ class Views::Layouts::Page < Erector::Widget
     html {
       head {
         title "MyApp - #{@page_title}"
+        css "application.css"
       }
       body {
         div.navbar {
