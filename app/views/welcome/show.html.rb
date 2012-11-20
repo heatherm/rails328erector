@@ -1,5 +1,5 @@
 class Views::Welcome::Show < Views::Layouts::Page
-  def initialize
+  def initialize(attr={})
     super(:page_title => "SHOW")
   end
 
